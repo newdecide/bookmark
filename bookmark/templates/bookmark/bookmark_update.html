@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>북마크 추가</title>
+    <title>북마크 수정</title>
 </head>
 <body>
     <form action="" method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <input type="submit" value="change" class="btn btn-info btn-sm">
+        <input type="submit" value="update" class="btn btn-info btn-sm">
     </form>
 </body>
 </html>
