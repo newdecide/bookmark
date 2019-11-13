@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc3cbcf-727c-4952-98b5-49270b40fa13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookmark/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -109,8 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -142,16 +147,15 @@
         <option value="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_update.html" />
         <option value="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_delete.html" />
         <option value="$PROJECT_DIR$/bookmark/urls.py" />
-        <option value="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" />
         <option value="$PROJECT_DIR$/bookmark/views.py" />
+        <option value="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" />
+        <option value="$PROJECT_DIR$/templates/Base.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="273" />
-    <option name="y" value="23" />
-    <option name="width" value="1385" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -168,19 +172,6 @@
             <path>
               <item name="Bookmark" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bookmark" type="462c0819:PsiDirectoryNode" />
-              <item name="bookmark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bookmark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bookmark" type="462c0819:PsiDirectoryNode" />
-              <item name="bookmark" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bookmark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bookmark" type="462c0819:PsiDirectoryNode" />
-              <item name="bookmark" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bookmark" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -224,25 +215,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573608745424</updated>
-      <workItem from="1573608746674" duration="10113000" />
+      <workItem from="1573608746674" duration="11324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10113000" />
+    <option name="totallyTimeSpent" value="11324000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13614164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1898657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.31428573" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
@@ -319,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -349,11 +333,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmark/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
